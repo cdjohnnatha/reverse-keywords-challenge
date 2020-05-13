@@ -1,0 +1,5 @@
+{
+  "error": {
+    "keyword_missing": "It is missing the query keyword 'word' at url. Should it be path/?word='some word to reverse'" 
+  }
+}

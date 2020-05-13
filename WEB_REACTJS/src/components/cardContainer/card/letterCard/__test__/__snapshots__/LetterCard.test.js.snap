@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test LetterCard component snapshot renders 1`] = `
+<div
+  className="card-class flex-container box-margin green-bg"
+  onClick={[Function]}
+>
+  K
+</div>
+`;

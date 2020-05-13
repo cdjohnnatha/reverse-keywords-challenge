@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test CardContainer component CardContainer snapshot renders 1`] = `
+<div>
+  <div>
+    <h2>
+      Reverse word
+    </h2>
+    <p>
+      Hello, welcome to reverse word application. Follow the instructions bellow.
+    </p>
+    <ol>
+      <li>
+        You can use the input field to type words. Each letter it will be shown as a green card.
+      </li>
+      <li>
+        To reverse a word you can press the button aside.
+      </li>
+      <li>
+        Each reversed word it will be saved in a history list, e a new line after the green cards following the same approach of one letter per card but with a red background.
+      </li>
+      <li>
+        You can also delete letters just clicking on it.
+      </li>
+    </ol>
+  </div>
+  <div>
+    <input
+      className="field input-style"
+      onChange={[Function]}
+      style={Object {}}
+      type="text"
+      value="Kenna"
+    />
+    <button
+      className="button-style"
+      onClick={[Function]}
+      type="button"
+    >
+      Reverse the input text "
+      Kenna
+      "
+    </button>
+  </div>
+  <div />
+  <div
+    id="current-card-inputs"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="card-class flex-container box-margin green-bg"
+        onClick={[Function]}
+      >
+        K
+      </div>
+      <div
+        className="card-class flex-container box-margin green-bg"
+        onClick={[Function]}
+      >
+        e
+      </div>
+      <div
+        className="card-class flex-container box-margin green-bg"
+        onClick={[Function]}
+      >
+        n
+      </div>
+      <div
+        className="card-class flex-container box-margin green-bg"
+        onClick={[Function]}
+      >
+        n
+      </div>
+      <div
+        className="card-class flex-container box-margin green-bg"
+        onClick={[Function]}
+      >
+        a
+      </div>
+    </div>
+  </div>
+</div>
+`;

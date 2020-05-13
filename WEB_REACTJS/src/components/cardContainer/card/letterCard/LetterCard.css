@@ -1,0 +1,29 @@
+.card-class {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  padding: 1em;
+  border: 1px solid lightblue;
+  cursor: pointer;
+}
+
+.card-class:hover {
+  background-color: grey
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.box-margin {
+  margin: 1em 0.2em 1em 0.2em;
+}
+
+.green-bg {
+  background-color: lightgreen;
+}
+
+.red-bg {
+  background-color: lightcoral;
+}
